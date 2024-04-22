@@ -4,34 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Tech Log Blog</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--<link rel="stylesheet" href="./assets/css/reset.css" />-->
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
         <!--Landing Page-->
         <!--Header of the blog-->
-        <header>
+        <header class="landing">
         <h1>Tech Thoughts</h1>
         </header>
         <!--Welcome note to the blog-->
-        <p>Please enter your techy thought of the week!</p>
-        <!--Landing page div id-->
-          <div id="landing-page">
+        <p class="welcome">Please enter your techy thought of the week!</p>
+        <!--Landing page div id and class-->
+          <section id="landing-page" class="landing">
             <!--id created for the blog form-->
             <form id="blog">
                 <!--creating username label-->
-                <div>
+                <div class="form-labels">
                     <label for="username">Username:</label>
                     <input id="username" type="text" placeholder="Enter Username" />
                 </div>
                 <!--creating title entry label-->
-                <div>
+                <div class="form-labels">
                     <label for="title">Title:</label>
                     <input id="title" type="text" placeholder="Insert Title"/>
                 </div>
                 <!--creating section for content entry-->
-                <div>
+                <div class="form-labels">
                     <label for="content">Content:</label>
                     <textarea id="content" placeholder="Your techy thought goes here!"></textarea>
                 </div>
@@ -39,10 +39,10 @@
                 <button type="submit">Submit My Tech Thought</button>
             </form>
         
-          </div>
+        </section>
 
-            <!--blog post page-->
-            <div id="blog-post">
+            <!--blog post page id and class to hide-->
+            <div id="blog-post" class="hide">
                 <header>
                     <!--Header for blog posts page-->
                     <h1>Tech Log Blog Posts</h1>

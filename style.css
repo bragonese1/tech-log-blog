@@ -1,0 +1,42 @@
+*{ box-sizing:border-box;}
+
+    /*style for light mode*/
+body{
+    background-color: rgb(237, 233, 233);
+    font: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*styles for dark mode*/
+body.dark{
+    background-color: black;
+    font:rgb(237, 233, 233);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+   text-align: center;
+}
+
+p{
+text-align: center;
+}
+
+/*landing page entry alignment*/
+.landing{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*For hiding blog post page*/
+.hide{
+display: none
+}
+
+
+
+
