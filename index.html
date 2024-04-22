@@ -11,14 +11,14 @@
   <body>
         <!--Landing Page-->
         <!--Header of the blog-->
+        <header>
         <h1>Tech Thoughts</h1>
+        </header>
         <!--Welcome note to the blog-->
         <p>Please enter your techy thought of the week!</p>
-        <!--Creating the main form-->
-        <main>
         <!--Landing page div id-->
           <div id="landing-page">
-            <!--id created for blog form-->
+            <!--id created for the blog form-->
             <form id="blog">
                 <!--creating username label-->
                 <div>
@@ -38,13 +38,26 @@
                 <!--creating a submit button-->
                 <button type="submit">Submit My Tech Thought</button>
             </form>
-            
+        
+          </div>
 
-
-
-
-
-
-
-
+            <!--blog post page-->
+            <div id="blog-post">
+                <header>
+                    <!--Header for blog posts page-->
+                    <h1>Tech Log Blog Posts</h1>
+                    <label class="mode">
+                    <!--Button to swtich from light to dark mode-->
+                     <button id="switch-mode" class="switch-mode">Switch Mode</button>   
+                    </label>
+                    <!--back button to go back to the form-->
+                    <button id="back-btn">Go Back</button>
+                </header>
+                <!--creating div to have blogs listed-->
+                <div id="blog-list"></div>
+                <footer>Tech Log Blog 2024</footer>
+            </div>
+        <!--JavaScript will go here-->
   </body>
+
+</html>
