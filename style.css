@@ -14,12 +14,9 @@ body.dark{
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-h1{
+/*centering header and welcome note*/
+h1,p{
    text-align: center;
-}
-
-p{
-text-align: center;
 }
 
 /*landing page entry alignment*/
@@ -30,8 +27,50 @@ text-align: center;
     justify-content: center;
 }
 
-
-
+/*aligning and creating border around form enteries*/
+form {
+    width: 75%;
+    padding: 30px;
+    border: 15px solid #ccc;
+    border-style:ridge;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  
+  /*creating space between individual enteries*/
+  .form-labels {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+  }
+/*creating 100% width within the form on user name and title enteries*/
+  input[type=text]{
+    width:100%;
+    border: 3px solid #ccc;
+    border-style: ridge;
+    border-radius: 5px;
+  }
+/*creating spacing within form on text entry field and also adding a little padding*/
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-style: ridge;
+    border-radius: 5px;
+  }
+/*button design*/  
+  button {
+    display:block;
+    margin:auto;
+    background-color: #ccc;
+    font: black;
+    font-size:20px;
+    border: 3px solid black;
+    border-style: ridge;
+    border-radius: 5px;
+    cursor:grab;
+  }
+  
 /*For hiding blog post page*/
 .hide{
 display: none
