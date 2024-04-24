@@ -1,0 +1,38 @@
+*{ box-sizing:border-box;}
+
+    /*style for light mode*/
+body{
+    background-color: rgb(237, 233, 233);
+    font: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.switch-mode {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: #ccc;
+        font: black;
+        font-size:20px;
+        border: 3px solid black;
+        border-style: ridge;
+        border-radius: 5px;
+        cursor:grab;
+      }
+#back-btn {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #ccc;
+        font: black;
+        font-size:20px;
+        border: 3px solid black;
+        border-style: ridge;
+        border-radius: 5px;
+        cursor:grab;
+      }
