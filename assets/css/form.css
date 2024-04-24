@@ -7,12 +7,6 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*styles for dark mode*/
-body.dark{
-    background-color: black;
-    font:rgb(237, 233, 233);
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
 
 /*centering header and welcome note*/
 h1,p{
@@ -70,11 +64,7 @@ form {
     border-radius: 5px;
     cursor:grab;
   }
-  
-/*For hiding blog post page*/
-.hide{
-display: none
-}
+
 
 
 

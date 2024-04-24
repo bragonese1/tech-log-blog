@@ -1,0 +1,7 @@
+
+/*styles for dark mode*/
+body.dark-mode{
+    background-color: black;
+    font:rgb(237, 233, 233);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
