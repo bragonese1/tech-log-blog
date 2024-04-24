@@ -13,13 +13,13 @@ if (!username.value || !title.value || !content.value) {
 }
 /*create post object*/
 const post = {
-    username,
-    title,
-    content
+    username: username.value,
+    title: title.value,
+    content: content.value
   };
 
   /*create array of posts*/
-  const posts = JSON.parse(localStorage.getItem('posts'));
+  let posts = JSON.parse(localStorage.getItem('posts'));
   /*if no posts, create array*/
   if (!posts) {
     posts = [];
