@@ -1,17 +1,17 @@
 *{ box-sizing:border-box;}
 
-    /*style for light mode*/
+    /*style for light mode keeping same theme as the form*/
 body{
     background-color: rgb(237, 233, 233);
     font: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/*putting header in the center*/
 h1{
     text-align: center;
 
 }
-
+/*formatting switch mode bottom fixing it to the top right and keep theme from form page*/
 .switch-mode {
         position: absolute;
         top: 20px;
@@ -24,6 +24,7 @@ h1{
         border-radius: 5px;
         cursor:grab;
       }
+/*styling the back button, fixing it to the top left corner*/
 #back-btn {
         position: absolute;
         top: 20px;
@@ -36,3 +37,11 @@ h1{
         border-radius: 5px;
         cursor:grab;
       }
+/*setting up area for the blog list*/
+.blog-list{
+    width: 100%;
+    border: 15px solid #ccc;
+    border-style:ridge;
+    border-radius: 15px;
+    background-color: #fff;
+    }
