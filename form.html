@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Tech Log Blog</title>
+    <link rel="stylesheet" href="./assets/css/darkmode.css" />
     <link rel="stylesheet" href="./assets/css/form.css" />
   </head>
 
   <body>
+    <div class="container dark">
         <!--Landing Page-->
         <!--Header of the blog-->
         <header class="landing">
         <h1>Tech Thoughts</h1>
         <p>Switch ⬇ Modes</p>
         <label class="switch-mode">
-          <input type="checkbox" id="theme-switcher">
-          <span class="slider round"></span>
+          <input type="checkbox" id="mode-switcher">
+          <span class="slider"></span>
         </label>
         </header>
         <!--Welcome note to the blog-->
@@ -42,12 +44,12 @@
                 <!--creating a submit button-->
                 <button type="submit">Submit</button>
             </form>
-         <div id="form-correct"></div>
         </section>
 
-        
-        <!--JavaScript will go here-->
+      </div>  
+        <!--JavaScript-->
         <script src="./assets/js/form.js"></script>
+        <script src="./assets/js/logic.js"></script>
   </body>
 
 </html>

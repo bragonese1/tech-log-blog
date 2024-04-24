@@ -4,25 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Log</title>
+    <link rel="stylesheet" href="./assets/css/darkmode.css" />
     <link rel="stylesheet" href="./assets/css/blogpost.css" />
   </head> 
  
- 
- 
  <!--blog post page-->
+ 
  <body>
+  <div class="container dark">
     <header>
         <!--Header for blog posts page-->
         <h1>Tech Log Blog Posts</h1>
         <!--back button to go back to the form-->
-        <button id="back-btn">🔙GO BACK</button>
+        <button id="back-btn">🔙</button>
         <label class="switch-mode">
-          <input type="checkbox" id="theme-switcher">
-          <span class="slider round"></span>
+          <input type="checkbox" id="mode-switcher">
+          <span class="slider"></span>
       </label>
     </header>
     <!--creating main sections for the blog posts to populate-->
     <main id="blog-list"></main>
+  </div>
     <!--java-->
+    <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/blogpost.js"></script>
 </body>

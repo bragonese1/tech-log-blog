@@ -1,21 +1,13 @@
 *{ box-sizing:border-box;}
 
-    /*style for light mode keeping same theme as the form*/
-body{
-    background-color: rgb(237, 233, 233);
-    font: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 /*putting header in the center*/
 h1{
-    text-align: center;
-
+  text-align: center;
 }
-
 /*styling the back button, fixing it to the top left corner*/
 #back-btn {
     position: absolute;
-    top: 20px;
+    top: 40px;
     left: 20px;
     background-color: #ccc;
     font: black;
@@ -25,11 +17,16 @@ h1{
     border-radius: 5px;
     cursor:grab;
   }
+
+  /*adding a hover effect to the back button*/
+  #back-btn:hover{
+    background-color: rgb(240, 236, 236);
+  }
   
 /*formatting switch mode bottom fixing it to the top right and keep theme from form page*/
 .switch-mode {
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 20px;
     width: 60px;
     height: 34px;
@@ -44,7 +41,7 @@ h1{
   /* The slider */
   .slider {
     position: absolute;
-    cursor: pointer;
+    cursor:grab;
     top: 0;
     left: 0;
     right: 0;
@@ -54,6 +51,7 @@ h1{
     transition: .4s;
   }
   
+  /*slider attributes, positioning, and block color*/
   .slider:before {
     position: absolute;
     content: "";
@@ -61,19 +59,19 @@ h1{
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: grey;
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
+  /*background color of the slider*/
   input:checked + .slider {
-    background-color:rgb(237, 233, 233);
+    background-color:rgb(0, 0, 0);
   }
-  
+  /*adding grey shadow behind the slider to make it stand out*/
   input:focus + .slider {
-    box-shadow: 2px 2px 5px 5px black;
+    box-shadow: 2px 2px 5px 5px grey;
   }
-  
+  /*position the of the slider after it is toggled*/
   input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);

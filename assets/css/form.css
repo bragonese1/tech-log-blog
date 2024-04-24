@@ -1,18 +1,11 @@
 *{ box-sizing:border-box;}
 
-    /*style for light mode*/
-body{
-    background-color: rgb(237, 233, 233);
-    font: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
 /*centering header and welcome note*/
 h1,p{
    text-align: center;
 }
 
+/*placement and width of slider*/
 .switch-mode {
   position: relative;
   display: inline-block;
@@ -29,16 +22,17 @@ h1,p{
 /* The slider */
 .slider {
   position: absolute;
-  cursor: pointer;
+  cursor: grab;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #111;
+  background-color: #000000;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
+/*Attributes of the slider positioning, size, movement and block color*/
 .slider:before {
   position: absolute;
   content: "";
@@ -46,19 +40,22 @@ h1,p{
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color:grey;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
+/*background color of the slider*/
 input:checked + .slider {
-  background-color:rgb(237, 233, 233);
+  background-color:rgb(0, 0, 0);
 }
 
+/*adding grey shadow on slider to stand out */
 input:focus + .slider {
-  box-shadow: 2px 2px 5px 5px black;
+  box-shadow: 2px 2px 5px 5px grey;
 }
 
+/*movement of slider after toggle*/
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
@@ -115,6 +112,11 @@ form {
     border-style: ridge;
     border-radius: 5px;
     cursor:grab;
+  }
+/*styling the submit button with color on hover*/
+  button:hover{
+    background-color: rgb(240, 236, 236);
+
   }
 
   

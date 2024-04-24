@@ -1,7 +1,29 @@
+    /* Dark Mode */
+  
+.dark {
+    background-color:#614646;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
 
-/*styles for dark mode*/
-body.dark-mode{
-    background-color: black;
-    font:rgb(237, 233, 233);
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
+/*dark the background of the form*/
+  .dark form{
+    background-color: grey;
+    font: black;
+  }
+
+  /*blog list background on the form in dark mode*/
+  .dark .blog-list{
+    background-color: grey;
+    font: black;
+  }
+
+  
+  /* Light Mode */
+  .light {
+    background-color: rgb(237, 233, 233);
+    font: black;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
