@@ -6,6 +6,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
+.dark h1{
+  background-color:#614646;
+}
+
 /*dark the background of the form*/
   .dark form{
     background-color: grey;

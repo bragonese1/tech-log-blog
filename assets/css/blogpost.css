@@ -1,8 +1,10 @@
 *{ box-sizing:border-box;}
 
+
 /*putting header in the center*/
 h1{
   text-align: center;
+  margin-top: 0%;
 }
 /*styling the back button, fixing it to the top left corner*/
 #back-btn {
