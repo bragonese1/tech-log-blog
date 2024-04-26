@@ -94,10 +94,7 @@ h1{
     }
 
   /*footer positioning*/
-  .footer{
+  footer{
     text-align: center;
     font-size: 30px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
   }  
