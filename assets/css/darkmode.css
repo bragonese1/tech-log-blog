@@ -1,6 +1,6 @@
     /* Dark Mode */
   
-.dark {
+body.dark {
     background-color:#614646;
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -24,10 +24,26 @@
 
   
   /* Light Mode */
-  .light {
+  body.light {
     background-color: rgb(237, 233, 233);
     font: black;
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+
+  .light h1{
+    background-color: rgb(237, 233, 233);
+  }
+  
+  /*dark the background of the form*/
+    .light form{
+      background-color: #fff;
+      font: black;
+    }
+  
+    /*blog list background on the form in dark mode*/
+    .light .blog-list{
+      background-color: #fff;
+      font: black;
+    }
   
