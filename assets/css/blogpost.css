@@ -5,15 +5,16 @@
 h1{
   text-align: center;
   margin-top: 0%;
+  margin-bottom: 0%;
 }
 /*styling the back button, fixing it to the top left corner*/
 #back-btn {
     position: absolute;
-    top: 40px;
+    top: 10px;
     left: 20px;
     background-color: #ccc;
     font: black;
-    font-size:20px;
+    font-size:30px;
     border: 3px solid black;
     border-style: ridge;
     border-radius: 5px;
@@ -28,7 +29,7 @@ h1{
 /*formatting switch mode bottom fixing it to the top right and keep theme from form page*/
 .switch-mode {
     position: absolute;
-    top: 40px;
+    top: 10px;
     right: 20px;
     width: 60px;
     height: 34px;
@@ -49,8 +50,8 @@ h1{
     right: 0;
     bottom: 0;
     background-color: #111;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .5s;
+    transition: .5s;
   }
   
   /*slider attributes, positioning, and block color*/
@@ -84,6 +85,7 @@ h1{
 /*setting up area for the blog list*/
 .blog-list{
     width: 100%;
+    margin:5px;
     padding-left:15px;
     border: 15px solid #ccc;
     border-style:ridge;
