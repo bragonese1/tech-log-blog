@@ -32,5 +32,5 @@ function displayBlogList() {
 
 /*Making the back button work with event listener to go back to form html page*/
 document.getElementById('back-btn').addEventListener('click', function() {
-    window.location.href = 'form.html';
+    window.location.href = 'index.html';
   })
