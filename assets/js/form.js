@@ -30,3 +30,4 @@ const post = {
   localStorage.setItem('posts', JSON.stringify(posts));
 /*direct to blogpost page*/
   window.location.href = 'blogpost.html'});
+
